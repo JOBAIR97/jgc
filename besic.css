@@ -1,0 +1,301 @@
+body {
+				background:pink;
+				
+}
+.fold{
+				width: 100%;
+				height: auto;
+}
+.main{
+				border:2px solid green;
+				width:100%;
+				height: 1000px;
+}
+.heading{
+				width: 100%;
+				height: 100px;
+				background-image:linear-gradient(red,gray,green, gray, #ff0000);
+				opacity:0.8;
+}
+.logo{
+				width: 20%;
+				height: 100px;
+				
+				float:left;
+}
+
+.menu-list{
+				width: 70%;
+				height: 50px;
+				
+				float:right;
+				margin-top:50px;
+				
+}
+
+
+.a-marquee{
+				text-decoration:none;
+				background:rbga(100, 30, 40, 0.6);
+				color:#fff;
+				font-size :20px;font: ;
+								
+}
+.a-marquee:hover{
+				color:yellow;
+				text-shadow:2px 2px 5px #257975;
+				transition:all 1.9s ease 0s;				
+				
+}
+
+
+
+.headline{
+				background:red;
+				
+}
+.notice-part{
+				width: 30%;
+				height: 420px;
+				background: url(tr1.jpg);
+				float:left;
+}
+
+.local{
+				width: 100%;
+				height: 420px;
+				background: green;
+				
+}
+.dpt-head{
+				width: 70%;
+				min-height: 420px;
+				background: non;
+				float:right;
+				
+}
+.log-in{
+				width: 40%;
+				height: 420px;
+				background: url(tr1.jpg);
+				float:right ;
+}
+.dpt{
+				width: 60%;
+				height: 420px;
+				background: url(Picture/abcd.jpg);
+				float:left;
+}
+.contact{
+				width: 100%;
+				height: 100px;
+				background: #882666;
+}
+.footer{
+				width: 100%;
+				height: 50px;
+				background: #889666;
+}
+
+ul{
+		list-style-type:none;	
+				
+				
+}
+
+ul li{
+				float:left;
+				padding-left: 10px;
+				position:relative;
+				
+}
+
+ul li a{
+				text-decoration :none;
+				color: #fff;
+				padding: 10px ;
+				background: #000;
+				box-shadow:3px 2px 5px red;
+				border-radius:30%;
+				transition:all 1s ease 0s;
+}
+
+ul li a:hover{
+				background: red;
+				color: #000;
+				box-shadow: 5px 5px 5px blue;
+				transition:all 1s ease 0s;
+}
+
+ul li ul{
+			list-style-type:none;	
+			padding: 0px;
+			border-right:none;	
+			position:absolute ;
+			left: -99999px;
+}
+ul li ul li{
+				float:none;
+				padding-left: 0px;
+				margin-top:25px;
+				
+}
+ul li:hover ul{
+				left:20px;
+				
+				
+}
+
+
+/* login site  */
+.log{
+				width: 50%;
+				height: 20px;
+				background: #644345;
+				margin-top:5px;
+				margin-left:60px;
+				border:2px solid blue;
+				border-radius:20%;
+				font-color:#fff;
+				box-shadow:4px 4px 7px #000;
+}
+
+.log:hover{
+				
+				background:orange;
+				color:red;
+				box-shadow:4px 4px 5px yellow;
+				transition:all 1s ease 0s;
+}
+
+
+.submit{
+				margin-left:75px;
+				box-shadow:4px 4px 7px #000;
+				background: pink;
+				border:2px solid black;
+				border-radius:5%;
+}
+.reset{
+				box-shadow:4px 4px 7px #000;
+				background: pink;
+				border:2px solid black;
+				border-radius:5%;
+}
+
+
+.submit:hover{
+				background: green;
+				color:#fff;
+				box-shadow:4px 4px 5px yellow;
+				transition:all 1s ease 0s;
+}
+.reset:hover{
+				background: red;
+				color:#fff;
+				box-shadow:4px 4px 5px yellow ;
+				transition:all 1s ease 0s;
+}
+h1{
+				color:#fff;
+				text-align:center;
+}
+p{
+				text-align:center;
+				color:yellow;
+}
+
+hr{
+			width: 100px;	
+			height: 2px;
+			box-shadow:3px 3px 5px #000;
+}
+.notice-a{
+				text-decoration :none;
+				color: #fff;
+				font-size :20px;
+				margin-top:10px;
+				overflue:block;
+				
+}			
+.notice-a:hover{
+				color:#fff;
+				font-size :25px;
+				background: blue;
+				transition:all 1s ease 0s;
+}
+.sirajul{
+				width: 150px;
+				margin-left: 130px;
+				margin-top:20px;
+				border-radius:40px;
+				border:2px solid green;
+				
+				
+				
+				
+}
+.sirajul:hover{
+				border-radius:30px;
+				box-shadow: 4px 4px 7px yellow;
+				transition: all 1s ease 0.07s;
+				
+}
+.sir-name{
+				text-align:center;
+				color:yellow;
+				margin-top:0px;
+				padding-top:0px;
+				text-shadow:1px 1px 3px #ff0000;
+				
+}
+.sir-name:hover{
+				color: yellow;
+				text-shadow:2px 2px 6px #fff;
+				transition: all 1s ease 0.07s;
+				
+}
+
+.mk{
+				background: red;
+				color: #fff;
+				width:160px;
+				font-size:13px;
+				text-shadow:2px 2px 8px blue;
+}
+.lecture{
+				color:#fff;
+				text-shadow:2px 2px 8px blue;
+				resize:both;
+				overflow:auto;
+				max-height:420px;
+				
+}
+
+
+
+.lecture:hover{
+				color:#fff;
+				text-shadow:2px 2px 8px red;
+				transition:all 2s ease 0s;
+}
+
+.ct{
+				margin: 0px;
+				padding: 0px;
+				text-align :center;
+				
+}
+
+.ct a{
+				color: yellow;
+				text-decoration :none;
+}
+/* footer */
+.footer{
+				font-size:25px;
+				text-align :center;
+				padding-top: 10px;
+				padding-bottom :0px;
+}
+.fff:active{transition:all 3s ease 0s;}
